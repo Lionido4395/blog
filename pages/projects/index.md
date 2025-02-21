@@ -13,7 +13,7 @@ projects:
         color: '#8a91d0'
         textColor: '#fff'
         gradient: true
-        url: '/images/gh_f97e576ac926_258.jpg'
+        url: 'https://cdn.liyangdev.cn/images/common/gh_f97e576ac926_258.jpg'
 
   - title: 源码
     emoji: 📦

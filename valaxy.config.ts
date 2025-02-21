@@ -49,7 +49,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       powered: false,
       beian: {
         enable: true,
-        icp: '',
+        icp: '渝ICP备2025051403号',
       },
     },
   },

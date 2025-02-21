@@ -1,13 +1,13 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://liyangdev.cn/',
+  url: 'https://www.liyangdev.cn/',
   lang: 'zh-CN',
   title: '励扬程序的小站',
   subtitle: 'All at sea.',
   author: {
     name: '励扬程序',
-    avatar: '/images/avatar.jpg',
+    avatar: 'https://cdn.liyangdev.cn/images/common/avatar.jpg',
     email: '392013660@qq.com',
     status: {
       emoji: '😊',
@@ -64,12 +64,12 @@ export default defineSiteConfig({
     //   icon: 'i-ri-bilibili-line',
     //   color: '#FF8EB3',
     // },
-    // {
-    //   name: '微信公众号',
-    //   link: '',
-    //   icon: 'i-ri-wechat-2-line',
-    //   color: '#1AAD19',
-    // },
+    {
+      name: '微信公众号',
+      link: 'https://cdn.liyangdev.cn/images/common/wechat.png',
+      icon: 'i-ri-wechat-2-line',
+      color: '#1AAD19',
+    },
     // {
     //   name: 'Twitter',
     //   link: '',
@@ -107,7 +107,7 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: '/images/alipay-qrcode.png',
+        url: 'https://cdn.liyangdev.cn/images/common/alipay-qrcode.png',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
@@ -119,7 +119,7 @@ export default defineSiteConfig({
       // },
       {
         name: '微信支付',
-        url: '/images/wechatpay-qrcode.png',
+        url: 'https://cdn.liyangdev.cn/images/common/wechatpay-qrcode.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
