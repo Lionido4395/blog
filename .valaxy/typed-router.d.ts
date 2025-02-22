@@ -19,6 +19,7 @@ declare module 'vue-router/auto-routes' {
    */
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
+    '/_sponsors/': RouteRecordInfo<'/_sponsors/', '/_sponsors', Record<never, never>, Record<never, never>>,
     '/[...path]': RouteRecordInfo<'/[...path]', '/:path(.*)', { path: ParamValue<true> }, { path: ParamValue<false> }>,
     '/404': RouteRecordInfo<'/404', '/404', Record<never, never>, Record<never, never>>,
     '/about/': RouteRecordInfo<'/about/', '/about', Record<never, never>, Record<never, never>>,
@@ -31,6 +32,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/cocos/framework/AudioManager': RouteRecordInfo<'/posts/cocos/framework/AudioManager', '/posts/cocos/framework/AudioManager', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/ResourceManager': RouteRecordInfo<'/posts/cocos/framework/ResourceManager', '/posts/cocos/framework/ResourceManager', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/Singleton': RouteRecordInfo<'/posts/cocos/framework/Singleton', '/posts/cocos/framework/Singleton', Record<never, never>, Record<never, never>>,
+    '/posts/cocos/framework/WinManager': RouteRecordInfo<'/posts/cocos/framework/WinManager', '/posts/cocos/framework/WinManager', Record<never, never>, Record<never, never>>,
     '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
     '/projects/': RouteRecordInfo<'/projects/', '/projects', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,

@@ -12,6 +12,7 @@ temp/
 .DS_Store
 *.local
 dist
+dist.zip
 dist-ssr
 node_modules
 .idea/
