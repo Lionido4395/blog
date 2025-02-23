@@ -30,6 +30,7 @@ declare module 'vue-router/auto-routes' {
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/AudioManager': RouteRecordInfo<'/posts/cocos/framework/AudioManager', '/posts/cocos/framework/AudioManager', Record<never, never>, Record<never, never>>,
+    '/posts/cocos/framework/EventManager': RouteRecordInfo<'/posts/cocos/framework/EventManager', '/posts/cocos/framework/EventManager', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/ResourceManager': RouteRecordInfo<'/posts/cocos/framework/ResourceManager', '/posts/cocos/framework/ResourceManager', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/Singleton': RouteRecordInfo<'/posts/cocos/framework/Singleton', '/posts/cocos/framework/Singleton', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/WinManager': RouteRecordInfo<'/posts/cocos/framework/WinManager', '/posts/cocos/framework/WinManager', Record<never, never>, Record<never, never>>,

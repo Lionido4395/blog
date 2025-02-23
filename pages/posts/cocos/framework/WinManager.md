@@ -55,12 +55,24 @@ export class WinManager extends Singleton {
 ```
 #### 2. **动态加载**
 
+缓存窗口节点，如果已经打开了窗口节点，直接移到最上层，避免重复加载
+
 结合ResourceManager实现资源加载
 
 ```typescript
+private winMap: Map<string, Node> = new Map();
 open(win: WIN_CONFIG, cb = null) {
     if (win.type === WIN_TYPE.PAGE) {
         this.container.removeAllChildren();
+        this.winMap.clear();
+    }
+    if (this.winMap.has(win.layerPath)) {
+        // 判断当前窗口是否在最上层
+        const index = this.container.children.findIndex((node) => node === this.winMap.get(win.layerPath));
+        if (index !== this.container.children.length - 1) {
+            this.winMap.get(win.layerPath).setSiblingIndex(this.container.children.length - 1);
+        }
+        return;
     }
     ResourceManager.Instance().loadRes(win.layerPath, Prefab, 'bundles').then((prefab: Prefab) => {
         let winNode = instantiate(prefab);
