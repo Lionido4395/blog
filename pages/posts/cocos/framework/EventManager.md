@@ -79,18 +79,6 @@ class EventSystemClass {
     emit(eventName: string, ...args: any[]) {
         this.eventTarget.emit(eventName, ...args);
     }
-
-    /**
-     * 移除所有事件监听
-     * @param eventName 事件名称（可选），如果不传则移除所有监听
-     */
-    removeAll(eventName?: string) {
-        if (eventName) {
-            this.eventTarget.removeAll(eventName);
-        } else {
-            this.eventTarget.clear();
-        }
-    }
 }
 
 // 使用单例模式，确保全局唯一
@@ -163,15 +151,6 @@ EventSystem.off('KEY_DOWN', onKeyDown);
 
 ---
 
-### 4.4 移除所有监听（`removeAll`）
-如果我们要在某个场景卸载时移除所有事件，可以使用 `removeAll`：
-
-```typescript
-EventSystem.removeAll('KEY_DOWN'); // 只移除 'KEY_DOWN' 事件的监听
-EventSystem.removeAll(); // 移除所有监听
-```
-
----
 
 ## 5. 事件系统的优势
 + **模块解耦**：输入、UI、游戏逻辑等模块可以通过事件通信，避免相互引用。
@@ -211,7 +190,7 @@ EventSystem.on('BUTTON_CLICKED', (buttonName: string) => {
 ## 7. 总结
 本教程介绍了 Cocos Creator 3.8 的事件系统：
 
-+ **封装 **`EventSystem`**，提供 **`on`**、**`off`**、**`emit`**、**`once`**、**`removeAll`** 方法**。
++ **封装 **`EventSystem`**，提供 **`on`**、**`off`**、**`emit`**、**`once`** 方法**。
 + **让输入管理、UI 组件、游戏逻辑等模块可以解耦通信**。
 + **支持全局事件系统，避免模块之间直接耦合**。
 + **提供示例，包括键盘输入、UI 按钮事件等**。
