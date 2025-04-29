@@ -7,7 +7,7 @@ export default defineSiteConfig({
   subtitle: 'All at sea.',
   author: {
     name: '励扬程序',
-    avatar: 'https://cdn.liyangdev.cn/images/common/avatar.jpg',
+    avatar: '/images/common/avatar.jpg',
     email: '392013660@qq.com',
     status: {
       emoji: '😊',
@@ -66,7 +66,7 @@ export default defineSiteConfig({
     // },
     {
       name: '微信公众号',
-      link: 'https://cdn.liyangdev.cn/images/common/wechat.png',
+      link: '/images/common/wechat.png',
       icon: 'i-ri-wechat-2-line',
       color: '#1AAD19',
     },
@@ -107,7 +107,7 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: 'https://cdn.liyangdev.cn/images/common/alipay-qrcode.png',
+        url: '/images/common/alipay-qrcode.png',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
@@ -119,7 +119,7 @@ export default defineSiteConfig({
       // },
       {
         name: '微信支付',
-        url: 'https://cdn.liyangdev.cn/images/common/wechatpay-qrcode.png',
+        url: '/images/common/wechatpay-qrcode.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
