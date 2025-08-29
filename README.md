@@ -30,6 +30,9 @@ English & Chinese Docs is coming!
 docker build . -t your-valaxy-blog-name:latest
 ```
 
+### CloudFlare
+  wrangler.toml
+
 ## Structure
 
 In most cases, you only need to work in the `pages` folder.
