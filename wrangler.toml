@@ -1,4 +1,5 @@
-name = "blog-site"
+name = "stacklodge"
+compatibility_date = "2025-08-29"
 
 # 核心配置：绑定静态资源目录
 [assets]
