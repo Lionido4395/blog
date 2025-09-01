@@ -3,10 +3,10 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://www.liyangdev.cn/',
   lang: 'zh-CN',
-  title: '励扬程序的小站',
+  title: '隐栈',
   subtitle: 'All at sea.',
   author: {
-    name: '励扬程序',
+    name: '隐栈',
     avatar: '/images/common/avatar.jpg',
     email: '392013660@qq.com',
     status: {
@@ -15,6 +15,7 @@ export default defineSiteConfig({
   },
   description: '希望能成为一个有趣的人',
   languages: ['zh-CN'],
+  timezone: 'Asia/Shanghai',
   social: [
     {
       name: 'RSS',
