@@ -3,10 +3,10 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://www.stacklodge.com/',
   lang: 'zh-CN',
-  title: '隐栈',
+  title: '励扬程序的隐栈',
   subtitle: 'All at sea.',
   author: {
-    name: '隐栈',
+    name: '励扬程序',
     avatar: '/images/common/avatar.jpg',
     email: '392013660@qq.com',
     status: {

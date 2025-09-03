@@ -24,6 +24,12 @@ projects:
         textColor: '#fff'
         gradient: true
         url: 'https://store.cocos.com/app/detail/7285'
+      - name: 密室逃生消除
+        desc: 一款消除休闲小游戏，通过消除道具在指定时间内消除一个通道移除石头，拯救小人。
+        color: '#dfa72fff'
+        textColor: '#fff'
+        gradient: true
+        url: 'https://store.cocos.com/app/detail/7654'
 
 ---
 #c38ad0, #8a91d0, #4ea5f5, #20c077, #16a34a
