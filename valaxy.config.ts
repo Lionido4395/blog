@@ -17,7 +17,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '励扬程序的小站',
+      title: '隐栈',
     },
 
     pages: [

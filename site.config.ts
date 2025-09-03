@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://www.liyangdev.cn/',
+  url: 'https://www.stacklodge.com/',
   lang: 'zh-CN',
   title: '隐栈',
   subtitle: 'All at sea.',
