@@ -15,15 +15,8 @@ Cloudflare Workers 是一个强大的无服务器计算平台，能让你在 Clo
 ## 一、前期准备
 
 1.  **注册 Cloudflare 账户**：访问 https://www.cloudflare.com/ 注册一个账户。
-2.  **安装 Node.js**：确保你的开发机器上已安装 Node.js，因为我们将使用 npm（Node.js 的包管理器）来安装必要的工具。
-3.  **安装 Wrangler CLI**：Wrangler 是 Cloudflare 官方提供的命令行工具，用于创建、管理和部署 Workers。在终端中运行以下命令进行全局安装：
-    ```bash
-    npm install -g wrangler
-    ```
-    或者使用 yarn：
-    ```bash
-    yarn global add wrangler
-    ```
+1.  **注册 github 账户**：访问 https://www.github.com/ 注册一个账户。
+
 ## 二、部署静态网站
 
 ### 1. 进入 Cloudflare 控制台
