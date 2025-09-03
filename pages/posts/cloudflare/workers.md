@@ -6,6 +6,7 @@ categories: Cloudflare
 tags:
   - Cloudflare
   - workers
+  - d1
 ---
 
 Cloudflare Workers 是一个强大的无服务器计算平台，能让你在 Cloudflare 的全球边缘网络上运行代码，无需管理服务器。轻松构建和部署无服务器功能、站点和全栈应用程序。
