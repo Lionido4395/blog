@@ -29,6 +29,7 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
+    '/posts/cloudflare/workers': RouteRecordInfo<'/posts/cloudflare/workers', '/posts/cloudflare/workers', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/AudioManager': RouteRecordInfo<'/posts/cocos/framework/AudioManager', '/posts/cocos/framework/AudioManager', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/EventManager': RouteRecordInfo<'/posts/cocos/framework/EventManager', '/posts/cocos/framework/EventManager', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/LoadingScene': RouteRecordInfo<'/posts/cocos/framework/LoadingScene', '/posts/cocos/framework/LoadingScene', Record<never, never>, Record<never, never>>,
