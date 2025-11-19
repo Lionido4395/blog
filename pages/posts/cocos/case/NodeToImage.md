@@ -1,7 +1,7 @@
 ---
 title: Cocos Creator 3.8 实现指定Node节点截图功能教程
 date: 2025-11-18
-updated: 2025-11-18
+updated: 2025-11-19
 categories: 实战案例
 tags:
   - 游戏开发
@@ -57,10 +57,10 @@ tags:
 ![](https://cdn.stacklodge.com/cocos/node2image4.png)
 
 ### 需要注意的问题
-1. **图像缩放问题**
-   - 最终的宽高计算需要注意缩放的问题
 1. **截图空白或不全的问题**
-   - 相机的orthoHeight 设置为高度的一半(截图代码写的是宽度一半只有正方形的才不会有问题，已更正)
+   - 相机的orthoHeight 设置为高度的一半
+2. **图像缩放问题**
+   - 一半情况下相机的orthoHeight 设置为高度的一半，如果节点缩放的哈 还需要计算缩放y的比例
 
 ## 五、注意事项与优化建议
 
