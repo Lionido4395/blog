@@ -31,3 +31,6 @@ public/atom.xml
 
 # valaxy rss
 public/feed.json
+
+.workbuddy
+.codebuddy
