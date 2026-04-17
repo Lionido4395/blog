@@ -29,7 +29,9 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
+    '/posts/ai-news/2026-04-16': RouteRecordInfo<'/posts/ai-news/2026-04-16', '/posts/ai-news/2026-04-16', Record<never, never>, Record<never, never>>,
     '/posts/cloudflare/workers': RouteRecordInfo<'/posts/cloudflare/workers', '/posts/cloudflare/workers', Record<never, never>, Record<never, never>>,
+    '/posts/cocos/case/NodeToImage': RouteRecordInfo<'/posts/cocos/case/NodeToImage', '/posts/cocos/case/NodeToImage', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/AudioManager': RouteRecordInfo<'/posts/cocos/framework/AudioManager', '/posts/cocos/framework/AudioManager', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/EventManager': RouteRecordInfo<'/posts/cocos/framework/EventManager', '/posts/cocos/framework/EventManager', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/LoadingScene': RouteRecordInfo<'/posts/cocos/framework/LoadingScene', '/posts/cocos/framework/LoadingScene', Record<never, never>, Record<never, never>>,
@@ -37,6 +39,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/cocos/framework/Singleton': RouteRecordInfo<'/posts/cocos/framework/Singleton', '/posts/cocos/framework/Singleton', Record<never, never>, Record<never, never>>,
     '/posts/cocos/framework/WinManager': RouteRecordInfo<'/posts/cocos/framework/WinManager', '/posts/cocos/framework/WinManager', Record<never, never>, Record<never, never>>,
     '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
+    '/posts/v2ray/wsl': RouteRecordInfo<'/posts/v2ray/wsl', '/posts/v2ray/wsl', Record<never, never>, Record<never, never>>,
     '/projects/': RouteRecordInfo<'/projects/', '/projects', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
